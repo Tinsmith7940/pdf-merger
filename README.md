@@ -4,7 +4,9 @@ A simple utility script for merging multiple pdf files together
 ## Usage
 This can be used by calling the `main.py` script:
 `python main.py`
+
 or
+
 `python3 main.py`
 
 ```sh
@@ -19,9 +21,9 @@ options:
 ```
 ## Example usage
 Let's say we have some pdfs to merge in our `Documents` folder
-- copy the `main.py` into the same documents folder
+- copy the `main.py` into the same Documents folder
 - open a terminal
-- change into the documents directory (e.g. `cd ~/Documents`)
+- change into the Documents directory (e.g. `cd ~/Documents`)
 - now type `python main.py 1.pdf 2.pdf`
   - `python` -tells the computer to use python to run the script
   - `main.py`- the script that actually merges the files
