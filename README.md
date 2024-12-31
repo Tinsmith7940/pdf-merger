@@ -11,14 +11,16 @@ or
 
 ```sh
 >> python main.py -h
-usage: Simple pdf merger utility [-h] -f FILES [FILES ...]
+usage: Simple pdf merger utility [-h] -f FILES [FILES ...] [-o OUTPUT]
 
 options:
   -h, --help            show this help message and exit
   -f, --files FILES [FILES ...]
-                        pdf file(s), space delimmited, to merge (e.g. '-f
-                        file1.pdf file2.pdf file3.pdf')
+                        pdf file(s), space delimmited, to merge (e.g. '-f file1.pdf
+                        file2.pdf file3.pdf')
+  -o, --output OUTPUT   name of the merged pdf file. Defaults to merged_output.pdf
 ```
+
 ## Example usage
 Let's say we have some pdfs to merge in our `Documents` folder
 - copy the `main.py` into the same Documents folder
@@ -29,7 +31,7 @@ Let's say we have some pdfs to merge in our `Documents` folder
   - `main.py`- the script that actually merges the files
   - `1.pdf etc...` - these are the files we want to merge. The script will merge in the order that they are listed (in this case 1.pdf will be at the beginning, 2.pdf next, etc...)
 - The file `merged_output.pdf` will be created
- 
+
 ```sh
 >> cd ~/Documents
 >> python main.py 1.pdf 2.pdf
