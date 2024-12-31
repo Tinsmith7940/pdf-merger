@@ -1,4 +1,4 @@
-# PyPDF-Merge
+# PDF-Merger
 A simple utility script for merging multiple pdf files together
 
 ## Usage
@@ -27,12 +27,12 @@ Let's say we have some pdfs to merge in our `Documents` folder
 ### Installation
 Make sure the following are setup on your machine:
 - Python 3
-```python
+```sh
 python --version
 ```
 Make sure that the printed version `is 3.x.x`
 - pypdf - this can be installed with `pip`
-```
+```sh
 pip install pypdf
 ```
 ### Script
